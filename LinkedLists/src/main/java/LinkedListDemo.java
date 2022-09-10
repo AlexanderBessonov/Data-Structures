@@ -32,7 +32,8 @@ public class LinkedListDemo {
             System.out.println("Id of node is: "+current.id);
             current=current.next;
         }
-
+//        ArrayList<Node> nodeArrayList = new ArrayList<>();
+//        nodeArrayList.add();
     }
 
 
