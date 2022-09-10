@@ -6,4 +6,7 @@ public class Node {
 
     Node next; // next
 
+    public Node(int id) {
+        this.id = id;
+    }
 }
