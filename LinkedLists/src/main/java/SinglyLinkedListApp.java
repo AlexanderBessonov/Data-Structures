@@ -13,7 +13,9 @@ public class SinglyLinkedListApp {
             mylist.add(i);
         }
         mylist.printNodes();
-       ArrayList<Integer> blist = new ArrayList<>();
+     //  ArrayList<Integer> blist = new ArrayList<>();
+        mylist.deleteById(9);
+        mylist.printNodes();
 
     }
 }
