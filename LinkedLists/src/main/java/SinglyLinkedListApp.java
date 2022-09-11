@@ -16,6 +16,6 @@ public class SinglyLinkedListApp {
      //  ArrayList<Integer> blist = new ArrayList<>();
         mylist.deleteById(9);
         mylist.printNodes();
-
+        System.out.println("index of 8 : "+mylist.indexOf(8));
     }
 }
