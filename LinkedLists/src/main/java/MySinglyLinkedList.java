@@ -11,7 +11,19 @@ public class MySinglyLinkedList {
     boolean isEmpty() {
         return head == null;
     }
-
+    void addFirst(int data){
+        //create a new node object from data
+        Node node= new Node(data);
+        //case 1 : list empty
+        if (isEmpty()){
+            head=tail=node;
+        }else{   //case 2 : list is not empty
+            node.next=head;
+            head=node;
+        }
+        //increase size
+        size++;
+    }
     void add(int data) {
         //create a new object from data
         Node node = new Node(data);
