@@ -11,6 +11,30 @@ public class MySinglyLinkedList {
     boolean isEmpty() {
         return head == null;
     }
+    //**********************************
+    public void removeDuplicates(){
+        Node ptr1 = head;
+        Node ptr2= head;
+        Node ptr = head;
+
+            while (ptr2.next.next!=null){
+                if (ptr1.id==ptr2.next.id) {
+                    ptr = ptr2.next;
+                    ptr2.next = ptr2.next.next;
+                    ptr=null;
+
+                }
+                    ptr1=ptr2;
+                    ptr2 = ptr2.next;
+                if (ptr1.id==ptr2.id) {
+                    ptr = ptr1.next;
+
+                    ptr1.next = ptr2.next;
+                    ptr=null;
+                }
+            }
+    }
+    //*****************************************
     void addFirst(int data){
         //create a new node object from data
         Node node= new Node(data);

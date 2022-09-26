@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CollectionsReview" />
+        <module name="dsa-06-AlgorithmProblems" />
         <module name="Stacks" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Arrays" target="13" />
       <module name="demo" target="11" />
+      <module name="dsa-05-Stacks" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
