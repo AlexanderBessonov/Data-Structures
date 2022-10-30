@@ -6,21 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dsa-05-Stacks" />
         <module name="CollectionsReview" />
         <module name="dsa-06-AlgorithmProblems" />
-        <module name="Stacks" />
+        <module name="Data-Structures" />
+        <module name="dsa-07-Queues" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Arrays" target="13" />
       <module name="demo" target="11" />
-      <module name="dsa-05-Stacks" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Stacks" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="dsa-05-Stacks" options="-parameters" />
     </option>
   </component>
 </project>

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AlgorithmAnalysis/AlgorithmAnalysis.iml" filepath="$PROJECT_DIR$/AlgorithmAnalysis/AlgorithmAnalysis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LinkedLists/LinkedLists.iml" filepath="$PROJECT_DIR$/LinkedLists/LinkedLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dsa-01-AlgorithmAnalysis/AlgorithmAnalysis.iml" filepath="$PROJECT_DIR$/dsa-01-AlgorithmAnalysis/AlgorithmAnalysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionsReview.iml" filepath="$PROJECT_DIR$/CollectionsReview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dsa-04-LinkedLists/LinkedLists.iml" filepath="$PROJECT_DIR$/dsa-04-LinkedLists/LinkedLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stacks/dsa-05-Stacks.iml" filepath="$PROJECT_DIR$/Stacks/dsa-05-Stacks.iml" />
     </modules>
   </component>
 </project>
