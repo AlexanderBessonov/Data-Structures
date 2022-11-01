@@ -31,4 +31,20 @@ public class MyTree {
             }
         }
     }
+    // *** PreOrder Traversal of the tree ***
+    // *** Root-Left-Right                ***
+    void preOrderTraversal(TNode root){
+        if (root==null) return;
+        System.out.print(root.value +", ");
+        preOrderTraversal(root.leftChild);
+        preOrderTraversal(root.rightChild);
+    }
+    // **** InOrder Traversal of the tree  ****
+    // **** Left-Root-Right                ****
+    void inOrderTraversal(TNode root){
+        if (root==null) return;
+        inOrderTraversal(root.leftChild);
+        System.out.println(root.value + ", ");
+        inOrderTraversal(root.rightChild);
+    }
 }
