@@ -44,7 +44,15 @@ public class MyTree {
     void inOrderTraversal(TNode root){
         if (root==null) return;
         inOrderTraversal(root.leftChild);
-        System.out.println(root.value + ", ");
+        System.out.print(root.value + ", ");
         inOrderTraversal(root.rightChild);
+    }
+    // ***** PostOrder Traversal of the tree  *****
+    // ***** Left-Right-Root                  *****
+    void postOrderTraversal(TNode root){
+        if (root==null) return;
+        postOrderTraversal(root.leftChild);
+        postOrderTraversal(root.rightChild);
+        System.out.print(root.value + ", ");
     }
 }
