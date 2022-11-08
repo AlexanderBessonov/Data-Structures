@@ -21,6 +21,11 @@ public class TreeApp {
 
         tree.levelOrderTraversal();
         System.out.println("- Level Order Traversal");
+
+        System.out.println(tree.contains(8));
+        System.out.print("- public boolean contains");
+
+
     }
 
 }

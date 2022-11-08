@@ -72,4 +72,33 @@ public class MyTree {
 
      }
     }
+    public boolean contains(int value){
+        if (root == null) return false;
+        TNode current = root;
+        while (current!=null) {
+            if (value < current.value) current = current.leftChild;
+            else if (value > current.value) current = current.rightChild;
+            else return true;
+        }
+        return false;
+    }
+    public boolean isLeaf(TNode node){
+        return node.leftChild == null && node.rightChild == null;
+    }
+
+    public void printLeaves(TNode root){
+        if (root == null) return;
+        // perform visit on Root
+        if (isLeaf(root)) System.out.println(root.value +", ");
+        //Recursively Branch Left Subtree
+        printLeaves(root.leftChild);
+        printLeaves(root.rightChild);
+        // Recursively Branch Right Subtree
+    }
+    int countLeaves(TNode root){
+        if (root == null) return 0 ;
+        if (isLeaf(root)) return 1 ;
+        return countLeaves(root.leftChild) + countLeaves(root.rightChild);
+    }
+
 }
