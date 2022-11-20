@@ -119,5 +119,16 @@ public class MyTree {
 
         return 1 + Math.max(height(root.rightChild), height(root.rightChild));
     }
+    public int calculateNodeDepthSums(){
 
+        return nodeDepthSums(root,0);
+    }
+     // Assignment Sum of Node Depths
+     public int nodeDepthSums(TNode node, int A){
+
+        if (node == null) return  0;
+
+        return A+nodeDepthSums(node.leftChild, A+1)+nodeDepthSums(node.rightChild, A+1);
+     }
+    // Assignment Sum of Node Depths
 }
