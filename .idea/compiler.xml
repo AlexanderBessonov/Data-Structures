@@ -9,6 +9,7 @@
         <module name="dsa-05-Stacks" />
         <module name="CollectionsReview" />
         <module name="dsa-06-AlgorithmProblems" />
+        <module name="dsa-09-Heap" />
         <module name="Stacks" />
         <module name="dsa-08-Trees" />
         <module name="Data-Structures" />
@@ -17,7 +18,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Arrays" target="13" />
+      <module name="CollectionsReview" target="11" />
       <module name="demo" target="11" />
+      <module name="dsa-05-Stacks" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
