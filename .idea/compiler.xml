@@ -6,14 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dsa-05-Stacks" />
-        <module name="CollectionsReview" />
         <module name="dsa-06-AlgorithmProblems" />
         <module name="dsa-09-Heap" />
         <module name="Stacks" />
         <module name="dsa-08-Trees" />
         <module name="Data-Structures" />
         <module name="dsa-07-Queues" />
+        <module name="dsa-10-Search" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +27,7 @@
       <module name="Stacks" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="dsa-05-Stacks" options="-parameters" />
+      <module name="dsa-10-Search" options="-parameters" />
     </option>
   </component>
 </project>
