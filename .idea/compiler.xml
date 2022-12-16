@@ -27,7 +27,7 @@
       <module name="Stacks" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="dsa-05-Stacks" options="-parameters" />
-      <module name="dsa-10-Search" options="-parameters" />
+      <module name="dsa-10-Search" options="" />
     </option>
   </component>
 </project>
