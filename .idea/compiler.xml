@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dsa-06-AlgorithmProblems" />
+        <module name="dsa-09-Heap (1)" />
         <module name="dsa-09-Heap" />
+        <module name="dsa-11-Sorting" />
         <module name="Stacks" />
         <module name="dsa-08-Trees" />
         <module name="Data-Structures" />
@@ -19,6 +21,7 @@
       <module name="Arrays" target="13" />
       <module name="CollectionsReview" target="11" />
       <module name="demo" target="11" />
+      <module name="dsa" target="11" />
       <module name="dsa-05-Stacks" target="11" />
     </bytecodeTargetLevel>
   </component>
